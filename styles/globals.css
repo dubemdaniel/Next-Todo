@@ -7,6 +7,11 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+.bg-hero {
+  background-image: url('/image.jpeg');
+  background-size: cover;
+  background-position: center;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
