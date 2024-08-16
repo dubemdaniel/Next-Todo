@@ -32,7 +32,6 @@ export default function Home({ initialTodos }) {
   return (
     <div className="flex flex-col justify-center min-h-screen py-6 text-black bg-gray-100 sm:py-12 bg-hero">
       <div className="relative py-3">
-        {/* <div className="absolute inset-0 transform -skew-y-6 shadow-lg bg-gradient-to-r from-cyan-400 to-light-blue-500 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div> */}
         <div className="relative px-4 py-10 sm:rounded-3xl sm:p-20 lg:w-[40%]  mx-auto">
 
           <h1 className="mb-6 text-3xl font-bold text-center text-white">Todo List</h1>
